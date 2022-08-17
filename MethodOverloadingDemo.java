@@ -12,9 +12,9 @@ public class MethodOverloadingDemo {
 			System.out.println(a+" "+b);
 		}
 		public static void main(String[] args){
-			MethodOverloadingDemo obj = new MethodOverloadingDemo();
-			obj.display(10);
-			obj.display(15,20);
-			obj.display(25,60.78);
+			MethodOverloadingDemo m = new MethodOverloadingDemo();
+			m.display(10);
+			m.display(15,20);
+			m.display(25,60.78);
 		} 
 }
