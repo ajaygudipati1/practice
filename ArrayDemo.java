@@ -3,7 +3,7 @@ package exercise1;
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-		String[] name = new String[10];
+	String[] name = new String[10];
         name[5] ="hyderabad";
         name[2] = "tokyo";
         name[1] = "newyork";
@@ -12,7 +12,9 @@ public class ArrayDemo {
         	System.out.println("yes");
         	
         }
-
+        else{
+		System.out.println("no");
+	}
 	}
 
 }
