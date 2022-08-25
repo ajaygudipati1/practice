@@ -1,7 +1,5 @@
 package exercise1;
 
-import java.util.ArrayList;
-
 public class StringSample {
 
 	public static void main(String[] args) {
